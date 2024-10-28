@@ -1,3 +1,16 @@
+.animate-modalAni {
+    animation: modalAni .3s ease-in-out 1;
+}
+
+@keyframes modalAni {
+    0% {
+        transform: translate(0, -400px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

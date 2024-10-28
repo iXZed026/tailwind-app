@@ -1,16 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { IoIosArrowDown } from "react-icons/io";
+import NavMenu from './NavMenu';
 
 const Nav = () => {
+
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Articels</li>
-                <li>Projects</li>
-                <li>Speaking</li>
-            </ul>
-        </nav>
+        <>
+
+            <nav className='shadow-md shadow-[#00000032] dark:bg-[#252529] rounded-3xl hidden md:block'>
+                <ul className='flex px-4 dark:text-gray-300 text-sm font-bold'>
+                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Home</li>
+                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>About</li>
+                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Articels</li>
+                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Projects</li>
+                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Speaking</li>
+                </ul>
+            </nav>
+
+            <nav className='shadow-md    shadow-[#00000032] dark:bg-[#252529] rounded-3xl w-24 h-12 flex justify-center items-center gap-2 font-semibold cursor-pointer hover:opacity-80 md:hidden' onClick={() => setOpenMenu(true)}>
+                <span className='text-sm'>Menu</span>
+                <IoIosArrowDown className='text-sm' />
+            </nav>
+            {openMenu && (
+                <NavMenu setOpenMenu={setOpenMenu} />
+            )}
+
+
+        </>
     )
 }
 
