@@ -16,7 +16,7 @@ const TopContent = () => {
     ]
 
     return (
-        <div className="top-content py-12">
+        <div className="top-content py-12 mb-7">
             <img className='w-16 rounded-full mb-8' src="../../images/me.jpg" alt="image not found!" />
             <h1 className='w-full md:w-[626px] text-3xl sm:text-5xl mb-8 font-bold'>ront-end developer, React specialist, and technology enthusiast</h1>
             <p className='w-full md:w-[626px] mb-8 text-gray-500'>I’m Danial Lotfi, a front-end developer based in Karaj, Iran. Currently, I’m pursuing a degree in Computer Engineering, specializing in React.js. My work focuses on crafting interactive and user-friendly web applications that make digital experiences seamless and enjoyable.</p>
