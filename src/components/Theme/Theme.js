@@ -18,7 +18,7 @@ const Theme = () => {
     }, [darkMod])
 
     return (
-        <div className="theme  text-[#2CBFAD] shadow-sm shadow-[#00000032] dark:bg-[#252529] size-14 flex justify-center items-center rounded-full cursor-pointer"
+        <div className="theme  text-[#2CBFAD] shadow-md shadow-[#0000002d] dark:bg-[#252529] size-14 flex justify-center items-center rounded-full cursor-pointer"
             onClick={() => setDarkMod(!darkMod)}
         >
             <CiDark className='text-xl' />

@@ -3,6 +3,8 @@ import Header from "./components/Header/Header"
 import Home from './components/Home/Home';
 import { Routes, Route } from 'react-router-dom';
 
+
+
 const App = () => {
   return (
     <div className="app w-full dark:bg-black">
