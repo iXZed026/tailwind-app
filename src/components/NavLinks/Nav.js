@@ -13,7 +13,7 @@ const Nav = () => {
             <nav className='shadow-md shadow-[#00000032] dark:bg-[#252529] rounded-3xl hidden md:block'>
                 <ul className='flex px-4 dark:text-gray-300 text-sm font-bold'>
                     <Link to="/"><li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Home</li></Link>
-                    <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>About</li>
+                    <Link to="/About/About"><li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>About</li></Link>
                     <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Articels</li>
                     <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Projects</li>
                     <li className='py-3 px-2.5 hover:text-[#2CBFAD] transition-all cursor-pointer'>Speaking</li>
