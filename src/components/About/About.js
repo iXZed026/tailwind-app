@@ -7,7 +7,7 @@ const About = () => {
                 <img className='w-72 lg:w-4/5 rotate-2 lg:ml-auto rounded-2xl' src="../../images/portrait.webp" alt="image not found!" />
             </div>
             <div className='w-full lg:w-[530px]'>
-                <h1 className='text-[47px] font-bold leading-[55px] mb-8'>I’m Spencer Sharp. I live in New York City, where I design the future.</h1>
+                <h1 className='text-[47px] font-bold leading-[55px] mb-8'>I’m Danial Lotfi. I live in Karaj City, where I Programing the Web.</h1>
                 <div className=" text-gray-700 dark:text-gray-400 font-semibold">
                     <p className='mb-9'>I’ve loved making things for as long as I can remember, and wrote my first program when I was 6 years old, just two weeks after my mom brought home the brand new Macintosh LC 550 that I taught myself to type on.</p>
                     <p className='mb-9'>The only thing I loved more than computers as a kid was space. When I was 8, I climbed the 40-foot oak tree at the back of our yard while wearing my older sister’s motorcycle helmet, counted down from three, and jumped — hoping the tree was tall enough that with just a bit of momentum I’d be able to get to orbit.</p>

@@ -9,11 +9,11 @@ import About from './components/About/About';
 const App = () => {
   return (
     <div className="app w-full dark:bg-black">
-      <div className="container xl:w-[1230px] md:w-[90%] sm:w-[100%] mx-auto dark:text-white dark:bg-[#18181B]">
+      <div className="container xl:w-[1230px] md:w-[90%] sm:w-[100%] mx-auto dark:text-white dark:bg-[#18181B] pb-5">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About/About" element={<About />} />
+          <Route path="/About" element={<About />} />
         </Routes>
       </div>
     </div>
